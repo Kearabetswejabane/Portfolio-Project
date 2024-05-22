@@ -86,13 +86,13 @@ p {
 .Project-description {
   padding: 120px 60px;
 }
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
 }
 .logo {
-  max-width: 130px;
+  max-height: 40px;
 }
 nav li {
   display: inline;
@@ -133,5 +133,8 @@ nav a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
