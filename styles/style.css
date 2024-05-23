@@ -17,6 +17,7 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5px;
 }
 h2 {
   font-size: 64px;
@@ -44,7 +45,7 @@ p {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  line-height: 2px;
+  line-height: 1.5px;
   font-size: 24px;
 }
 .content-container {
@@ -153,7 +154,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 2px;
   }
   h2 {
     font-size: 44px;
@@ -164,6 +165,7 @@ footer .social-links a:hover {
   .hero {
     padding: 80px 20px;
   }
+
   .Project-description {
     padding: 0;
     text-align: center;
